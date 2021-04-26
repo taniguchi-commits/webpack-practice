@@ -84,7 +84,7 @@ module.exports ={
     },
     plugins:[
         new MiniCssExtractPlugin({
-            filename:'./stylesheets/main.css',
+            filename:'./stylesheets/[name]-[contenthash].css',
         }),
         new HtmlWebpackPlugin({
             template:'./src/templates/index.pug',
